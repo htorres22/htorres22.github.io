@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+// original menu and header color #F97300
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+	color: #8A2BE2;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+.navbar{
+	// background:#F97300;
+	background:#8A2BE2;
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #8A2BE2;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*header style*/
+.header{
+	position: relative;
+	background-image: url('../images/header-bg-2.png');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+	color:#8A2BE2 ;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #8A2BE2;
+	background:#8A2BE2;
+	color:#fff;
+}
+
+/* ABOUT section */
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h2{
+	margin: 2em;
+}
+.about img{
+	height: auto;
+  width: 100%;
+  border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+
+/* Portfolio Section */
+.portfolio{
+	margin: 4em 0;
+  position: relative;
+	background:#ffffff;
+}
+.portfolio h2{
+	margin: 2em;
+}
+.portfolio img{
+	 height: auto;
+	 width: 100%;
+}
+
+/* BLOG Section */
+.blog{
+	margin: 4em 0;
+	position: relative;
+}
+
+.blog img{
+	 height: auto;
+	 width: 100%;
+}
+
+.blog h2{
+	margin: 2em;
+}
+.blog .card{
+	box-shadow: 0 0 20px #ccc;
+}
+
+.blog .card-title{
+	color:#8A2BE2;
+
+}
+.blog .card-body{
+	padding: 1em;
+}
+
+
+/* TEAM Section */
+.team h2{
+	margin: 2em;
+}
+
+.team img{
+	 height: auto;
+	 width: 100%;
+}
+
+
+.team{
+	margin: 4em 0;
+	position: relative;
+
+}
+
+.team .item{
+	position: relative;
+	overflow: hidden;
+}
+.team .des{
+	background: #8A2BE2;
+	color: #fff;
+	text-align: center;
+	border-top-right-radius: 93%;
+	transition:.3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 24px;
+
+
+}
+.team .item:hover .des{
+	height: 100%;
+	background:#8A2BE2;
+    position: absolute;
+	width: 89%;
+	padding: 5em;
+	top: 0;
+	border-top-right-radius: 0;
+}
+
+/* CONTACT Section */
+.contact-form{
+	margin: 6em 0;
+	position: relative;
+}
+
+.contact-form h2{
+	padding:2em 1px;
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:  #8A2BE2;
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}

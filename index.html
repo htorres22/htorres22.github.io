@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap 4 landing page</title>
+	 <!-- add bootstrap css file -->
+
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	  <a class="navbar-brand" href="#">Home</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="portfolio" href="#">Portfolio</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="blog" href="#">Blog</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="team" href="#">
+	        Team</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">Contact</a>
+	      </li>
+	    </ul>
+
+	  </div>
+</nav>
+<!-- header section -->
+<header class="header ">
+	<div class="overlay"></div>
+  	<div class="container">
+   		<div class="description">
+	  		<h1>Welcome To Hector's Bootstrap Sample Website</h1>
+				<p>
+		  		This is a simple one page website created using the Bootstrap framework's
+		  		grid system, CSS, and Javascript, specifically the JQuery library.
+				</p>
+	  		<a href="http://htshowcase.com" target="_blank"><button class="btn btn-outline-secondary btn-lg">View Full Portfolio</button></a>
+		  </div>
+		</div>
+</header>
+
+<!-- about section -->
+<div class="about" id="about">
+	<div class="container">
+	  <h2 class="text-center">About Me</h2>
+		<div class="row">
+			<!-- left column -->
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<img src="images/hector-black-background-1000X1000.jpg" class="img-responsive">
+
+			</div> <!-- left column -->
+			<!-- right column -->
+			<div class="col-lg-8 col-md-6 col-sm-12 desc">
+
+				<h3>Hector Torres</h3>
+				<p><strong>UX/UI Designer</strong></p>
+				<p>
+					Hello! I’m Hector Torres. I’ve been designing amazing websites for over 10 years.
+					I’m a creative designer that loves to be challenged with new ideas and projects.
+					I can work as a stand alone contractor, work as part of a development  team, or
+					manage a team of developers and designers.
+				</p>
+			</div> <!-- right column -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- about -->
+
+<!-- portfolio -->
+<div class="portfolio" id="portfolio">
+	<div class="container">
+		<h2 class="text-center" style="padding-top:4rem">Portfolio</h2>
+		<h3 class="text-center" >Notice this section displays 3 columns on desktops, 2 columns on tablets and 1 column on phones.</h3>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<a href="https://cec.fiu.edu" target="_blank" ><img src="images/portfolio/fiu-website-mac-monitor-400x292.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<a href="http://atchanas.com" target="_blank" ><img src="images/portfolio/atchanas-website-mac-monitor-400x292.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<a href="https://wildaboutskin.com" target="_blank" ><img src="images/portfolio/was-website-mac-monitor-400x292.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<a href="http://atchanas.com" target="_blank" ><img src="images/portfolio/atchanas-website-mac-monitor-400x292.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<a href="https://wildaboutskin.com" target="_blank" ><img src="images/portfolio/was-website-mac-monitor-400x292.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+			 <a href="http://coconutgroveballet.com" target="_blank" ><img src="images/portfolio/cgb-website-mac-monitor-400x292.jpg" class="img-responsive"></a>
+		 </div>
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- portfolio -->
+
+
+<!-- Posts section -->
+<div class="blog" id="blog">
+	<div class="container">
+	<h2 class="text-center" style="padding-top:4rem">Blog</h2>
+		<div class="row">
+			<div class="col-md-12 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/post1.jpg" class="img-responsive">
+					</div>
+
+					<div class="card-body">
+					<h4 class="card-title">Post 1 Title</h4>
+						<p class="card-text">
+								This is a sample post. Normally we would link this to a page.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/post2.jpg" class="img-responsive">
+					</div>
+
+					<div class="card-body">
+					   <h4 class="card-title">Post 2 Title</h4>
+						<p class="card-text">
+							This is a sample post. Normally we would link this to a page.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/post3.jpg" class="img-responsive">
+					</div>
+
+					<div class="card-body">
+					<h4 class="card-title">Post 3 Title</h4>
+						<p class="card-text">
+								This is a sample post. Normally we would link this to a page.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Team section -->
+<div class="team" id="team">
+	<div class="container">
+	  <h2 class="text-center" style="padding-top:4rem">Our Team</h2>
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-12 item">
+				<img src="images/team-1.jpg" class="img-responsive">
+				<div class="des">
+				 	John
+				 </div>
+				<span class="text-muted">Manager</span>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 item">
+				<img src="images/team-2.jpg" class="img-responsive">
+				<div class="des">
+				 	 Jamie
+				 </div>
+				<span class="text-muted">Engineer</span>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 item">
+				<img src="images/team-3.jpg" class="img-responsive">
+				<div class="des">
+				 	Layla
+				 </div>
+				<span class="text-muted">Developer</span>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 item">
+				<img src="images/team-4.jpg" class="img-responsive">
+				 <div class="des">
+				 	Samuel
+				 </div>
+				<span class="text-muted">UX Designer</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				  <h2 class="text-center" >Get in Touch</h2>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+				   <div class="form-group">
+				   	 <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+				   </div>
+				   <div class="form-group">
+				   	 <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+				   </div>
+				   <div class="form-group">
+				   	 <textarea class="form-control form-control-lg">
+
+				   	 </textarea>
+				   </div>
+				   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- add Javasscript file from js file -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
+
+</body>
+</html>
