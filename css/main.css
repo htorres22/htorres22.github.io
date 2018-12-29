@@ -16,8 +16,9 @@ h2 {
 }
 
 .navbar{
-	// background:#F97300;
-	background:#8A2BE2;
+	// original background:#F97300;
+	// new background #8A2BE2;
+	background:#F97300;
 }
 .nav-link , .navbar-brand{
 	color: #f4f4f4;
